@@ -3,8 +3,8 @@ nw.emails
 
 A simple cross-platform email client.
 
-![Compact](https://raw.githubusercontent.com/mdickison/whitebox/master/Screenshots/screenshot-1.jpg)
-![Expanded](https://raw.githubusercontent.com/mdickison/whitebox/master/Screenshots/screenshot-2.jpg)
+![Compact](https://raw.githubusercontent.com/mdickison/nw.emails/master/Screenshots/screenshot-1.jpg)
+![Expanded](https://raw.githubusercontent.com/mdickison/nw.emails/master/Screenshots/screenshot-2.jpg)
 
 Features
 ========
