@@ -1,4 +1,4 @@
-Whitebox
+nw.emails
 ========
 
 A simple cross-platform email client.
