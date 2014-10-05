@@ -1,6 +1,10 @@
 {
-	"name": "Whitebox",
+	"name": "nw.emails",
 	"main": "index.html",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mdickison/nw.emails.git"
+	},
 	"window": {
 		"toolbar": false,
 		"frame": false,
