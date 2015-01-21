@@ -27,6 +27,6 @@ Installation
 git clone https://github.com/mdickison/nw.emails
 cd nw.emails
 npm install
-nw .
+npm start
 ```
 
