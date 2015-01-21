@@ -9,8 +9,8 @@
 		"toolbar": false,
 		"frame": false,
 		"transparent": true,
-		"width": 320,
-		"height": 600,
+		"width": 260,
+		"height": 540,
 		"position": "center"
 	},
 	"scripts": {

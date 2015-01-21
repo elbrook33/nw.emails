@@ -193,7 +193,7 @@ function MailStorage() {
 		text = text.replace( /\s*[\n\r]\s*/gm,
 				"\n"+'<br />'+"\n" ).trim();
 		var html =
-			'<div class="text" style="font-family: Cantarell, sans; font-size: 9pt; word-wrap: break-word; padding: 4%;">'+
+			'<div class="text" style="font-family: Helvetica, Arial, Cantarell, sans; font-size: 9pt; word-wrap: break-word; padding: 4%;">'+
 			'<div class="subject" style="font-weight: bold; margin-bottom: 13pt;">'+
 			mimelib.parseMimeWords(subject)+
 			'</div>'+

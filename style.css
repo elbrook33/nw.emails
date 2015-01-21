@@ -9,7 +9,7 @@
 /*/////////////////////////////////////////////////////////////////////*/
 /* Top-level containers */
 body {
-	font-family: Cantarell, "Lucida Grande", "Trebuchet MS", Verdana, sans;
+	font-family: Helvetica, Arial, Cantarell, "Lucida Grande", "Trebuchet MS", Verdana, sans;
 	font-size: 9pt;
 	margin: 0; padding: 0;
 	cursor: default;
@@ -104,7 +104,7 @@ input, textarea {
 	
 	font-size: 9pt;
 	line-height: 13pt;
-	font-family: Cantarell, "Lucida Grande", "Trebuchet MS", Verdana, sans;
+	font-family: Helvetica, Arial, Cantarell, "Lucida Grande", "Trebuchet MS", Verdana, sans;
 	color: rgba(0,0,0,0.75);
 }
 .inputDiv.focused input, .inputDiv.focused textarea {
@@ -279,7 +279,7 @@ textarea:focus, input:focus {
 	background-color: white;
 }
 #listView.onSide {
-	width: 30%;
+	width: 33%;
 }
 
 /* listView toolbar #1:
@@ -352,7 +352,7 @@ textarea:focus, input:focus {
 	background-attachment: fixed;
 	background-position: left;
 	background-size: auto 100%;
-	opacity: 0.5;
+	opacity: 0.4;
 }
 
 /* listView content #2:
@@ -369,7 +369,7 @@ textarea:focus, input:focus {
 	border-width: 1pt;
 	border-color: rgba(0,0,0,0.1);
 
-	background-color: rgba(200,210,255,0.3);/*
+	background-color: rgba(200,210,255,0.0);/*
 	background-image: linear-gradient(
 		to top,
 		rgba(0,0,0,0.064) 0pt,

@@ -352,18 +352,18 @@ function openLinkInNewWindow() {
 function showMessageView() {
 	if( viewerActive ) return;
 	// Hacks to make change smoother
-	var newWidth = window.outerWidth+1.5*window.innerWidth;
-	$("#listView").css( "width", newWidth*0.3+"px" );
-	$("#toolbar").css( "width", newWidth*0.3+"px" );
-	$("#messageView").css( "left",  newWidth*0.3+"px" );	
-	$("#messageView").css( "width", newWidth*0.7+"px" );	
-	$(".header").css( "width", newWidth*0.7+"px" );
+	var newWidth = window.outerWidth+2.0303*window.innerWidth;
+	$("#listView").css( "width", newWidth*0.33+"px" );
+	$("#toolbar").css( "width", newWidth*0.33+"px" );
+	$("#messageView").css( "left",  newWidth*0.33+"px" );	
+	$("#messageView").css( "width", newWidth*0.67+"px" );	
+	$(".header").css( "width", newWidth*0.67+"px" );
 	clearTimeout(hackDelay);
 	hackDelay = setTimeout( function() {
-		$("#listView").css( "width", "30%" );
-		$("#toolbar").css( "width", "30%" );
-		$("#messageView").css( "left",  "30%" );
-		$("#messageView").css( "width", "70%" );
+		$("#listView").css( "width", "33%" );
+		$("#toolbar").css( "width", "33%" );
+		$("#messageView").css( "left",  "33%" );
+		$("#messageView").css( "width", "67%" );
 		$(".header").css( "width", "100%" );		
 	}, 3000 );
 
@@ -378,7 +378,7 @@ function showMessageView() {
 function hideMessageView() {
 	if( !viewerActive ) return;
 	// Hacks
-	var newWidth = window.outerWidth-window.innerWidth*0.6;
+	var newWidth = window.outerWidth-window.innerWidth*0.67;
 	$("#listView").css("width",newWidth+"px");
 	$("#toolbar").css("width",newWidth+"px");
 	clearTimeout(hackDelay);
