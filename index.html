@@ -352,7 +352,7 @@ function openLinkInNewWindow() {
 function showMessageView() {
 	if( viewerActive ) return;
 	// Hacks to make change smoother
-	var newWidth = window.outerWidth+2.0303*window.innerWidth;
+	var newWidth = window.outerWidth/.33;
 	$("#listView").css( "width", newWidth*0.33+"px" );
 	$("#toolbar").css( "width", newWidth*0.33+"px" );
 	$("#messageView").css( "left",  newWidth*0.33+"px" );	
@@ -378,7 +378,7 @@ function showMessageView() {
 function hideMessageView() {
 	if( !viewerActive ) return;
 	// Hacks
-	var newWidth = window.outerWidth-window.innerWidth*0.67;
+	var newWidth = window.outerWidth*.33+1; // +1 hack to avoid shrinkage
 	$("#listView").css("width",newWidth+"px");
 	$("#toolbar").css("width",newWidth+"px");
 	clearTimeout(hackDelay);
